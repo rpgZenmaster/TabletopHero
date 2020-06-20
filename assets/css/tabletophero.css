@@ -41,7 +41,36 @@
 
 /* Global styles - CURRENTLY ROUGH FOR TESTING */
 
-div {
+body {
+  height: 100%;
+  background-color: #f9e8d8;
+}
+
+h1 {
+  display: block;
+  font-size: 3.2em;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.main-content {
+  height: 100%;
+}
+
+#glossary {
+  margin: 2vh;
+}
+
+.glossary-headcard {
+  margin: 20px 0 20px;
+  padding: 1.2vh;
+  background-color: white;
+  opacity: 0.5;
 }
 
 .glossary-list {
@@ -49,7 +78,10 @@ div {
 }
 
 .glossary-entry {
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0 20px;
+  padding: 1.2vh;
+  background-color: white;
+  opacity: 0.5;
 }
 
 .glossary-term {
